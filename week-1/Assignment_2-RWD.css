@@ -1,0 +1,186 @@
+.frame1{
+    font-size:20px;
+    display:flex;
+    margin:10px;
+}
+
+.left{
+    text-align:center; /*上下對齊置中*/
+    margin:auto;
+}
+
+.right{
+    display:flex;
+    justify-content:flex-end;
+    flex:auto;
+    display:block;
+    margin:auto;
+}
+
+.item{
+    flex:none;
+    width:10%;
+    text-align:center;
+}
+
+.mobile-menu{
+    float:right;
+    margin:auto;
+    display:none;
+}
+
+.welcome{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    text-align:center; 
+    background-color: #D2E9FF;
+    height:300px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.frame2{
+    font-size:20px;
+    width:1200px;
+    flex:none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list1{
+    display:flex;
+    height:50px;width:1200px;
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.promotion{
+    width:50%;
+    margin:5px;
+    height:50px;
+    background-color:#D2E9FF;
+}
+
+.list2{
+    display:flex;
+    height:200px;width:1200px;
+    flex-wrap:wrap;
+    justify-content:center; /*左右對齊置中*/
+}
+
+.img{
+    flex:none;
+    width:290px;margin:5px;
+    background-color:#D2E9FF;
+    text-align:center;
+}
+
+.title1{
+    text-align:center;
+    margin:5px;
+}
+
+@media(max-width:1200px){
+    .frame2{
+        font-size:20px;
+        flex:none;
+        margin-left: auto;
+        margin-right: auto;
+        width:90%;
+    }
+    .list1{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-left: auto;
+        margin-right: auto;
+        width:100%;
+    }
+    .promotion{
+        width:48%;
+        margin:5px;
+        height:50px;
+
+    }
+    .list2{
+        display:flex;
+        height:200px;
+        flex-wrap:wrap;
+        justify-content:center; /*左右對齊置中*/
+        margin-left: auto;
+        margin-right: auto;
+        width:100%;
+    }
+    
+    .img{
+        flex:none;
+        width:48%;margin:5px;
+        background-color:#D2E9FF;
+        text-align:center;
+    }
+    
+}
+
+@media(max-width:600px){
+    
+    .right{
+        display:none;
+    }
+
+
+    .item{
+        display:none;
+    }
+
+    .mobile-menu{
+        display:block;
+    }
+
+    .frame2{
+        font-size:20px;
+        margin-left: auto;
+        margin-right: auto;
+        width:90%;
+    }
+
+    .list1{
+        flex-wrap:wrap;
+        align-items:center;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        height:auto;
+    }
+    
+    .promotion{
+        width:100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 0;
+        margin-right: 0;
+        background-color:#D2E9FF;
+    }
+
+    .list2{
+        display:flex;
+        height:200px;
+        flex-wrap:wrap;
+        justify-content:center; /*左右對齊置中*/
+        margin-left: auto;
+        margin-right: auto;
+        width:100%;
+    }
+    
+    .img{
+        flex:none;
+        width:100%;margin:5px;
+        background-color:#D2E9FF;
+        text-align:center;
+    }
+    
+}
