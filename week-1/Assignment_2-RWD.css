@@ -1,3 +1,4 @@
+body{margin:0; padding:0;}
 .frame1{
     font-size:20px;
     display:flex;
@@ -19,7 +20,7 @@
 
 .item{
     flex:none;
-    width:10%;
+    width:70px;
     text-align:center;
 }
 
